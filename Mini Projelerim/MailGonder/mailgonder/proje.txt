@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Net.Mail;
+using System.Net;
+using System.IO;
+
+namespace MailGonder
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string MsgBody = File.ReadAllText(@"C:\Users\admin\Dropbox\Projects\MailGonder\MailGonder\proje.txt");
+
+            string[,] Recipents = {
+                { "mugenaak@gmail.com","Müge NAAK" },
+                { "seval.snmz@gmail.com","Seval SÖNMEZ" },
+                {"ekersedanur@gmail.com","Sedanur EKER" },
+                {"merve.unkar@hotmail.com","Merve UNKAR" },
+                {"tokakmehmet@gmail.com","Mehmet TOKAK" },
+                {"merwesavtur@gmail.com","Merve SAVTUR" },
+                {"m.yucel9@gmail.com","Mukaddes YÜCEL" },
+                {"emre@emrearkan.com","Emre ARKAN" },
+                {"metinafacan@gmail.com","Metin AFACAN" },
+                {"muratakdas32@hotmail.com","Murat AKDAŞ" },
+                {"gurkan.krkmaz75@gmail.com","Gürkan KORKMAZ" },
+                {"selahattin.tursun@gmail.com","Selahattin TURSUN" },
+                {"buyukculhaci3@hotmail.com","Ahmet BÜYÜKÇULHACI" },
+                {"sumeyye.calhan21@gmail.com","Sümeyyenur ÇALHAN" },
+                {"asikkutlu@hotmail.com","Serkan AŞIKKUTLU" }
+            };
+            MailGonderici(Recipents, "Mail Gönder Proje", MsgBody);
+        }
+
+        public static void MailGonderici(string[,] To,string Subject, string Body)
+        {
+            NetworkCredential MailCredential = new NetworkCredential();
+            MailCredential.UserName = "buyukculhaci@gmail.com";
+            MailCredential.Password = "155790";
+
+            SmtpClient MailClient = new SmtpClient();
+            MailClient.Host = "smtp.gmail.com";
+            MailClient.Port = 587;
+            MailClient.EnableSsl = true;
+            MailClient.Credentials = MailCredential;
+
+            
+
+            //MailAddress Recipent = new MailAddress(To, "görünen ad");
+            MailAddress Sender = new MailAddress("buyukculhaci@gmail.com", "Görünen ad");
+            //MailMessage MailMsg = new MailMessage(Sender,Recipent);
+            MailMessage MailMsg = new MailMessage();
+            MailMsg.From = Sender;
+            for (int i = 0; i < To.Length/2; i++)
+            {
+                MailMsg.To.Add(new MailAddress(To[i,0],To[i,1]));
+            }
+            MailMsg.Subject = Subject;
+            MailMsg.IsBodyHtml = true;
+            MailMsg.Body = Body;
+            try
+            {
+MailClient.Send(MailMsg);
+                Console.WriteLine("Başarılı");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Başarısız");
+                Console.WriteLine(ex.Message);
+            }
+            
+        }
+    }
+}

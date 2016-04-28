@@ -1,0 +1,2 @@
+-2 -ES3000MASW2D -cmp_001000.sg2-cmp_006250.sg2  
+ k_command_line=1 n_dimension=2 

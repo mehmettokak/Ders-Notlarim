@@ -1,0 +1,6 @@
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\forrr donngusu\forrr donngusu\bin\Debug\forrr donngusu.exe.config
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\forrr donngusu\forrr donngusu\bin\Debug\forrr donngusu.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\forrr donngusu\forrr donngusu\bin\Debug\forrr donngusu.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\forrr donngusu\forrr donngusu\obj\Debug\forrr donngusu.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\forrr donngusu\forrr donngusu\obj\Debug\forrr donngusu.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\forrr donngusu\forrr donngusu\obj\Debug\forrr donngusu.pdb

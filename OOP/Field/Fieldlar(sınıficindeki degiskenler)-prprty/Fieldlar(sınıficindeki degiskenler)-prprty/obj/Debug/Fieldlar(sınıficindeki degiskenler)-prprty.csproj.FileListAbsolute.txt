@@ -1,0 +1,6 @@
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\Fieldlar(sınıficindeki degiskenler)-prprty\Fieldlar(sınıficindeki degiskenler)-prprty\bin\Debug\Fieldlar(sınıficindeki degiskenler)-prprty.exe.config
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\Fieldlar(sınıficindeki degiskenler)-prprty\Fieldlar(sınıficindeki degiskenler)-prprty\bin\Debug\Fieldlar(sınıficindeki degiskenler)-prprty.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\Fieldlar(sınıficindeki degiskenler)-prprty\Fieldlar(sınıficindeki degiskenler)-prprty\bin\Debug\Fieldlar(sınıficindeki degiskenler)-prprty.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\Fieldlar(sınıficindeki degiskenler)-prprty\Fieldlar(sınıficindeki degiskenler)-prprty\obj\Debug\Fieldlar(sınıficindeki degiskenler)-prprty.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\Fieldlar(sınıficindeki degiskenler)-prprty\Fieldlar(sınıficindeki degiskenler)-prprty\obj\Debug\Fieldlar(sınıficindeki degiskenler)-prprty.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\Fieldlar(sınıficindeki degiskenler)-prprty\Fieldlar(sınıficindeki degiskenler)-prprty\obj\Debug\Fieldlar(sınıficindeki degiskenler)-prprty.pdb

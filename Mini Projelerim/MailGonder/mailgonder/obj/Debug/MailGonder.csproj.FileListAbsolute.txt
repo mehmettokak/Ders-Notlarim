@@ -1,0 +1,6 @@
+C:\Users\admin\Dropbox\Projects\MailGonder\MailGonder\bin\Debug\MailGonder.exe.config
+C:\Users\admin\Dropbox\Projects\MailGonder\MailGonder\bin\Debug\MailGonder.exe
+C:\Users\admin\Dropbox\Projects\MailGonder\MailGonder\bin\Debug\MailGonder.pdb
+C:\Users\admin\Dropbox\Projects\MailGonder\MailGonder\obj\Debug\MailGonder.csprojResolveAssemblyReference.cache
+C:\Users\admin\Dropbox\Projects\MailGonder\MailGonder\obj\Debug\MailGonder.exe
+C:\Users\admin\Dropbox\Projects\MailGonder\MailGonder\obj\Debug\MailGonder.pdb

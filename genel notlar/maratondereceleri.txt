@@ -1,0 +1,29 @@
+ //3 dizimiz var.1. isimler var 2. spor dallarý  var 3.derceler-kacýncý oldugu var.Her spor dallarý sabýt.katýlan sporcu dýsardan gýr.her katýlan býr spor dalý...dýsardan ýsým gýr bu ýsým daha once kacýncý oldu hangý spor dallarýnda onu goster
+            Console.WriteLine("Sporcu Sayýsý");
+            int sporcu_say =Convert.ToInt32( Console.ReadLine());
+
+            string[] dal = new string[] { "maraton", "cirit", "okculuk", "çekiç" };
+            int[] derece = new int[sporcu_say];
+            string[] sporcu_dal = new string[sporcu_say];
+            string[] sporcu = new string[sporcu_say];
+            for (int i = 0; i < sporcu_say; i++)
+            {
+                Console.WriteLine((i+1)+". Sporcu Adý :");
+                sporcu[i] = Console.ReadLine();
+
+                 Console.WriteLine((sporcu[i]+"Adlý Sporcunun Dalý : " + string.Join(" ",dal)+" : "));
+               sporcu_dal[i] = Console.ReadLine();
+
+
+                Console.WriteLine(sporcu[i]+" Adlý Sporcunun Derecesi :");
+                int derec = Convert.ToInt32( Console.ReadLine());
+                for (int k = 0; k < sporcu_say; k++)
+			{
+			 if(sporcu_dal[i]==sporcu_dal[k]){if(derec==derece[k]){Console.WriteLine(sporcu_dal[i]+" için "+derec+". giriþ yapýldý.Lutfen Deðiþtiriniz.");}}
+			}
+                derece[i]=derec;
+            }
+            foreach (var item in sporcu)
+            {
+                Console.WriteLine("Sporcu Ýsimleri : " + item);
+            }

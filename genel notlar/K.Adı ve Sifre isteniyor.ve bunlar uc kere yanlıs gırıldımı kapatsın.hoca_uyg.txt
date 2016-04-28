@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string KullaniciSabit = "Admin";
+            string SifreSabit = "Admin";
+            string KullaniciDegisken;
+            string SifreDegisken;
+
+            Console.Write("Kullanýcý adýnýzý giriniz: ");
+            KullaniciDegisken = Console.ReadLine();
+            Console.Write("Þifre Giriniz: ");
+            SifreDegisken = Console.ReadLine();
+
+            if (KullaniciDegisken==KullaniciSabit & SifreDegisken==SifreSabit)
+            {
+                Console.WriteLine("***** Giriþ Baþarýlýdýr *****");
+            }
+            else
+            {
+                Console.WriteLine("***** Giriþ Baþarýsýz, Lütfen Tekrar Deneyiniz!!! *****");
+                Console.WriteLine("***** 2 Deneme Hakkýnýz Kalmýþtýr *****");
+
+                Console.Write("Kullanýcý adýnýzý giriniz: ");
+                KullaniciDegisken = Console.ReadLine();
+                Console.Write("Þifre Giriniz: ");
+                SifreDegisken = Console.ReadLine();
+
+                if (KullaniciDegisken == KullaniciSabit & SifreDegisken == SifreSabit)
+                {
+                    Console.WriteLine("***** Giriþ Baþarýlýdýr *****");
+                }
+                else
+                {
+                    Console.WriteLine("***** Giriþ Baþarýsýz, Lütfen Tekrar Deneyiniz!!! *****");
+                    Console.WriteLine("***** 1 Deneme Hakkýnýz Kalmýþtýr *****");
+
+                    Console.Write("Kullanýcý adýnýzý giriniz: ");
+                    KullaniciDegisken = Console.ReadLine();
+                    Console.Write("Þifre Giriniz: ");
+                    SifreDegisken = Console.ReadLine();
+
+                    if (KullaniciDegisken == KullaniciSabit & SifreDegisken == SifreSabit)
+                    {
+                        Console.WriteLine("***** Giriþ Baþarýlýdýr *****");
+                    }
+                    else
+                    {
+                        Console.WriteLine("***** Giriþ Baþarýsýz, Deneme Hakkýnýz Kalmamýþtýr!!! *****");
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\bin\Debug\kutuphane_uyg.exe.config
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\bin\Debug\kutuphane_uyg.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\bin\Debug\kutuphane_uyg.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.Form1.resources
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.Properties.Resources.resources
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.csproj.GenerateResource.Cache
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.pdb
+C:\Users\Guest\Desktop\mehmetTOKAK\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\bin\Debug\kutuphane_uyg.exe.config
+C:\Users\Guest\Desktop\mehmetTOKAK\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.exe
+C:\Users\Guest\Desktop\mehmetTOKAK\bre\Masaustu uygulamalar\kutuphane_uyg\kutuphane_uyg\obj\Debug\kutuphane_uyg.pdb

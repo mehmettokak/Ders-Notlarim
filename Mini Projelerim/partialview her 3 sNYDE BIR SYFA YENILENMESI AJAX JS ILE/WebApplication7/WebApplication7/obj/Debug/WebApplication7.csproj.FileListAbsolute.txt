@@ -1,0 +1,65 @@
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\csc.exe
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\vbc.exe
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\WebApplication7.dll.config
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\WebApplication7.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\WebApplication7.pdb
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Helpers.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Mvc.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Razor.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Webpages.Deployment.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Webpages.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Webpages.Razor.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Razor.xml
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Webpages.xml
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Webpages.Deployment.xml
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Webpages.Razor.xml
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Helpers.xml
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\bin\System.Web.Mvc.xml
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\obj\Debug\WebApplication7.csprojResolveAssemblyReference.cache
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\obj\Debug\WebApplication7.dll
+C:\Users\admin\Dropbox\Projects\WebApplication7\WebApplication7\obj\Debug\WebApplication7.pdb
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\csc.exe
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\vbc.exe
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\VBCSCompiler.exe
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\WebApplication7.dll.config
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\WebApplication7.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\WebApplication7.pdb
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Helpers.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Mvc.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Razor.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Webpages.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Webpages.Razor.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Razor.xml
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Webpages.xml
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Webpages.Razor.xml
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Helpers.xml
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\bin\System.Web.Mvc.xml
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\obj\Debug\WebApplication7.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\obj\Debug\WebApplication7.dll
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\partialview her 3 sNYDE BIR SYFA YENILENMESI AJAX JS ILE\WebApplication7\WebApplication7\obj\Debug\WebApplication7.pdb

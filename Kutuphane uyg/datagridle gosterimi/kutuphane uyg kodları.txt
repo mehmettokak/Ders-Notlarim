@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace kutuphane_uyg
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        public class kutuphane
+        {
+            public string k_adi { get; set; }
+            public string k_yazari { get; set; }
+            public string k_yayinevi { get; set; }
+            public int k_sayfa { get; set; }
+        }
+        SqlConnection dtbsbaglan = new SqlConnection("Server=BYGURO-PC;Database=kutuphane_uyg;User Id=sa;Password=123;");
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            dtbsbaglan.Open();
+
+            kutuphane ekle = new kutuphane();
+            ekle.k_adi = textBox1.Text;
+            ekle.k_yazari = textBox2.Text;
+            ekle.k_yayinevi = textBox3.Text;
+            ekle.k_sayfa = Convert.ToInt32(textBox4.Text);
+
+            SqlCommand tablomabaglan = new SqlCommand("insert into Kitaplar(kitap_adi,kitap_yazari,kitap_yayinevi,kitap_sayfa) values (@kitap_adi,@kitap_yazari,@kitap_yayinevi,@kitap_sayfa)", dtbsbaglan);
+            tablomabaglan.Parameters.Add(new SqlParameter("kitap_adi", ekle.k_adi));
+            tablomabaglan.Parameters.Add(new SqlParameter("kitap_yazari", ekle.k_yazari));
+            tablomabaglan.Parameters.Add(new SqlParameter("kitap_yayinevi", ekle.k_yayinevi));
+            tablomabaglan.Parameters.Add(new SqlParameter("kitap_sayfa", ekle.k_sayfa));
+            tablomabaglan.ExecuteNonQuery();
+          
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (dtbsbaglan.State != ConnectionState.Open)
+            {
+                dtbsbaglan.Open();
+            }
+            
+            using (SqlDataAdapter da = new SqlDataAdapter("select * from Kitaplar", dtbsbaglan))
+            {
+                var dt = new DataTable();
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+
+                
+               
+            }
+
+
+        }
+
+      
+    }
+}

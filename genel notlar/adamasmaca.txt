@@ -1,0 +1,78 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication19
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int count = 0;
+            int correct = 0;
+            string secretWord = Console.ReadLine();
+
+            char[] secret = secretWord.ToCharArray();
+            int secret_length = secret.Length;
+            int puan = secret_length+5;
+            char[] secret_new = new char[secret_length];
+            for (int i = 0; i < secret_length; i++)
+            {
+                secret_new[i] = '_';
+            }
+            Console.WriteLine(string.Join(" ", secret_new));
+            while (count<secret_length && correct<secret_length)
+            {
+                Console.Write("Harf giriniz: ");
+                string harf = Console.ReadLine();
+                int kontrol = 0;
+                for (int i = 0; i < secret_length; i++)
+                {
+                    
+                    if (Convert.ToChar(harf)==secret[i])
+                    {
+                        if (Convert.ToChar(harf)!=secret_new[i])
+                        {
+                            secret_new[i] = secret[i];
+                            kontrol++;
+                            puan--;
+                             correct++;
+                        }
+                       
+                    }
+
+                }
+                
+                if (kontrol == 0)
+                {
+                    count++;
+                }
+                Console.WriteLine(string.Join(" ", secret_new)+ " || "+(secret_length-count)+" hakkýnýz kaldý.");
+                Console.WriteLine("Tahmin etmek ister misiniz? (E/H)");
+                string cevap=Console.ReadLine();
+                if (cevap.ToLower()=="e")
+                {
+                    Console.WriteLine("Tahmininiz nedir?");
+                    string tahmin=Console.ReadLine();
+                    if (tahmin==secretWord)
+                    {
+                        
+                       correct = secret_length;
+                    }
+                }
+            }
+
+            if (count==secret_length)
+            {
+                Console.WriteLine("Hakkýnýz Kalmadý");
+            }
+            if (correct==secret_length)
+            {
+                Console.WriteLine("Tebrikler Bildiniz. Puanýnýz: "+puan);
+            }
+
+        }
+    }
+}

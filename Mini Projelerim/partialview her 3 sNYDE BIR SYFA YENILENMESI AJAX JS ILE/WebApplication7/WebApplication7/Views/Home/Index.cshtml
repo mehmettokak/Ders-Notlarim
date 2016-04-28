@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script type="text/javascript"
+            src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+    $(document).ready(
+            function() {
+                setInterval(function() {
+                    $.ajax({
+                        url: '/Home/ikinci',
+                        contentType: 'application/html; charset=utf-8',
+                        type: 'GET',
+                        dataType: 'html'
+                    })
+                    .success(function(result) {
+                        $('#show').html(result);
+                    })
+                }, 3000);
+            });
+    </script>
+</head>
+<body>
+    <div> 
+        Index içerik burada
+    </div>
+    <div id="show">
+        @Html.Partial("ikinci")
+    </div>
+</body>
+</html>

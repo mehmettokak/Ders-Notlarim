@@ -1,0 +1,2 @@
+return toplam ; return varsa kayýt altýna aldýgý notu hafýzasýnda tutar.cunku belký sonrasýnda tekrar kullanabilirim diye hafýzada tutar.
+return yoksa metot sabýt yaný voýd ýse sonucu yazdýrýr.hafýzasýnda atar.bir daha kullanamayýz.

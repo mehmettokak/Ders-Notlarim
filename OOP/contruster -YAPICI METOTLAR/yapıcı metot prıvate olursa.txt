@@ -1,0 +1,2 @@
+constructer erısımı private olursa dıger sayalardan cnstrctra erısım olmaz..sadece kendı sayfasında erısım olur.
+diger sınıflardan nesne uretmek ıstıyorsak public yazmamız gerekır.ınt string dıye yazılmaz.sadece clas ısmı ve erısım yazılır

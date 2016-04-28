@@ -1,0 +1,4 @@
+string[,] ogrenci = new string[,] {{ "büþra", "sultan", "burçak", "çiçek", "buse", "duygu", "baþak", "sibel", "cengizhan", "cihan", "burak", "adnan", "mustafa", "volkan", "þahin" },{ "95", "100", "85", "33", "45", "85", "90", "55", "100", "55", "75", "60", "80", "80", "65" },{ "100", "100", "70", "75", "5", "95", "85", "70", "75", "45", "80", "55", "45", "65", "50" },{ "70", "65", "55", "15", "10", "55", "50", "20", "80", "50", "45", "45", "95", "50", "45" }};
+
+            int ortalama = (Convert.ToInt16(ogrenci[1, 0]) + Convert.ToInt16(ogrenci[2, 0]) + Convert.ToInt16(ogrenci[3, 0])) / 3;
+            Console.WriteLine(ogrenci[0, 0] + " adlý öðrenci\nMatematik: " + ogrenci[1, 0] + " , Türkçe: " + ogrenci[2, 0] + " , Fen: " + ogrenci[3, 0] + " , Ortalama: " + ortalama + "\n");

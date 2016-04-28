@@ -1,0 +1,77 @@
+  Console.WriteLine("Kullanýcý adýnýzý giriniz : ");
+            string kadi = Console.ReadLine();
+            int sifre=7731;
+            
+            if (kadi == "mehmet")
+            {
+                Console.WriteLine("Kullanýcý adýný dogru yazdýnýz.Lütfen Sifrenizi giriniz : ");
+                sifre = Convert.ToInt32(Console.ReadLine());
+            }
+            else
+            {
+
+                Console.WriteLine("Kullanýcý Adýnýzý Tekrar Yazýnýz :");
+                kadi = Console.ReadLine();
+                if (kadi == "mehmet") { 
+                    Console.WriteLine("Kullanýcý adýný dogru yazdýnýz.Lütfen Sifrenizi giriniz :");
+                     sifre = Convert.ToInt32(Console.ReadLine()); }
+
+                else
+                {
+
+
+                    Console.WriteLine("Kullanýcý Adýnýzý Tekrar Yazýnýz :");
+                    kadi = Console.ReadLine();
+                    if (kadi == "mehmet")
+                    {
+                        Console.WriteLine("Kullanýcý adýný dogru yazdýnýz.Lütfen Sifrenizi giriniz :");
+                         sifre = Convert.ToInt32(Console.ReadLine());
+                    }
+                    else
+                    {
+                        Console.WriteLine("Kullanýcý Adýnýzý Tekrar Yazýnýz :");
+                        kadi = Console.ReadLine();
+                        if (kadi == "mehmet")
+                        {
+                            Console.WriteLine("Kullanýcý adýný dogru yazdýnýz.Lütfen Sifrenizi giriniz :");
+                             sifre = Convert.ToInt32(Console.ReadLine());
+                        }
+
+
+
+                    }
+
+
+
+                }
+
+
+            }
+
+
+
+              if(sifre==7731){Console.WriteLine("Sifreniz Dogru Girilmiþtir.Anasayfaya birazdan yönlendirileceksiniz.");}
+            else{
+
+    Console.WriteLine("Sifrenizi Yanlýþ Girdiniz.Lütfen Tekrar Sifrenizi Giriniz :");
+     sifre = Convert.ToInt32(Console.ReadLine());
+
+     if (sifre == 7731) { Console.WriteLine("Sifreniz Dogru Girilmiþtir.Anasayfaya birazdan yönlendirileceksiniz."); }
+     else{ Console.WriteLine("Sifrenizi Yanlýþ Girdiniz.Lütfen Tekrar Sifrenizi Giriniz :");
+     sifre = Convert.ToInt32(Console.ReadLine());
+     
+          if (sifre == 7731) { Console.WriteLine("Sifreniz Dogru Girilmiþtir.Anasayfaya birazdan yönlendirileceksiniz."); }
+
+     else
+	{
+Console.WriteLine("Sifrenizi Yanlýþ Girdiniz.Lütfen Tekrar Sifrenizi Giriniz :");
+     sifre = Convert.ToInt32(Console.ReadLine());
+                        if (sifre != 7731) { Console.WriteLine("Sifrenizi 3 kez ust uste hatalý girdiniz .Goodbyy"); }
+
+
+	}
+     
+     
+     }
+     }
+}

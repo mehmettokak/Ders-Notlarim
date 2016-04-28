@@ -1,0 +1,13 @@
+C:\Users\mehmet.tokak\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\mehmet.tokak\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\mehmet.tokak\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\mehmet.tokak\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\mehmet.tokak\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Guest\Desktop\2016\sifreleme\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Guest\Desktop\2016\sifreleme\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Guest\Desktop\2016\sifreleme\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Guest\Desktop\2016\sifreleme\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Guest\Desktop\2016\sifreleme\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\sifreleme\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\sifreleme\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Guest\Desktop\mehmetTOKAK\mvc kod kutuphanem\sifreleme\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

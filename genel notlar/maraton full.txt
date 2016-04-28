@@ -1,0 +1,50 @@
+ //3 dizimiz var.1. isimler var 2. spor dallarý  var 3.derceler-kacýncý oldugu var.Her spor dallarý sabýt.katýlan sporcu dýsardan gýr.her katýlan býr spor dalý...dýsardan ýsým gýr bu ýsým daha once kacýncý oldu hangý spor dallarýnda onu goster
+            Console.WriteLine("Sporcu Sayýsý");
+            int sporcu_say =Convert.ToInt32( Console.ReadLine());
+
+            string[] dal = new string[] { "maraton", "cirit", "okculuk", "çekiç" };
+            int[] derece = new int[sporcu_say];
+            string[] sporcu_dal = new string[sporcu_say];
+            string[] sporcu = new string[sporcu_say];
+            for (int i = 0; i < sporcu_say; i++)
+            {
+                Console.WriteLine((i+1)+". Sporcu Adý :");
+                sporcu[i] = Console.ReadLine();
+
+                 Console.WriteLine((sporcu[i]+"Adlý Sporcunun Dalý : " + string.Join(" ",dal)+" : "));
+               sporcu_dal[i] = Console.ReadLine();
+               string kontroldal = Console.ReadLine();
+               for (int t = 0; t < dal.Length; t++)
+               {
+                   if(kontroldal!=sporcu_dal[t])
+                   {
+                       Console.WriteLine((kontroldal+ "Spor Dalý Gecerli Degildir.Lutfen Liste den Secýnýz. " + string.Join(" ", dal) + " : "));
+                       kontroldal= Console.ReadLine();
+                       t = -1;
+
+                   }
+               }
+               sporcu_dal[i] = kontroldal;
+                Console.WriteLine(sporcu[i]+" Adlý Sporcunun Derecesi :");
+                int derec = Convert.ToInt32( Console.ReadLine());
+                for (int k = 0; k < sporcu_say; k++)
+			{
+                if (sporcu_dal[i] == sporcu_dal[k]) 
+                { 
+                    if (derec == derece[k]) 
+                    { 
+                        Console.WriteLine(sporcu_dal[i] + " için " + derec + ". giriþ yapýldý.Lutfen Sadece Derceyi  Deðiþtiriniz.");
+                        derec = Convert.ToInt32(Console.ReadLine());
+
+                        k = -1; 
+                    } 
+                }
+			}
+                derece[i]=derec;
+            }
+            for (int k = 0; k <sporcu_say; k++)
+            {
+                Console.WriteLine(sporcu[k]+" adlý sporcumuz "+sporcu_dal[k]+" dalýnda"+derece[k]+". olmustur.");
+            }
+           
+

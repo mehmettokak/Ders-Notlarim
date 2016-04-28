@@ -1,0 +1,92 @@
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace sqlll
+{
+    class Program
+    {
+        public class hammadde_list
+        {
+            public string h_adi { get; set; }
+            public double brm_fiyat { get; set; }
+        }
+        static void Main(string[] args)
+        {  //Doysa yazma(txt) ve sql iliskisi olusturacaz.
+            string giris_komut = "";
+            File.WriteAllText(@"C:\Users\mehmet.tokak\documents\visual studio 2013\Projects\sqlll\sqlll\Hammadde.txt",null);//bunu her zaman buraya yaz
+            //bu komut dosya icindekileri siler.dosyayý sýlmez 
+            using (StreamWriter yaz = new StreamWriter(@"C:\Users\mehmet.tokak\documents\visual studio 2013\Projects\sqlll\sqlll\Hammadde.txt", true))//karakter notlarýna gore dosya olusturur.
+            {
+
+                while (giris_komut != "exit")//exzit yazana kadar urun gýrýsý olsun..exýt yazýlýnca program dursun
+                {
+                    Console.WriteLine("Hammadde giriniz :");
+                    string hammadde_adi = Console.ReadLine();
+                    giris_komut = hammadde_adi;
+                    if (hammadde_adi != "exit")
+                    {
+                        Console.WriteLine("Birim fiyat giriniz :");
+                        string hammadde_birim_fiyat = Console.ReadLine();
+                        yaz.WriteLine(hammadde_adi + "#" + hammadde_birim_fiyat);
+                        Console.WriteLine("Hammadde Eklendi.");
+                    }
+                    //girisin exzýt olup olmadýgýný gormek ýcýn
+                }
+            }
+           
+           
+            //hammmedde listesý olustrurduk.iki eleman eklemek ýcýn dýsarý cýkýp clas olustrucaz
+                List<hammadde_list> hammadde_liste = new List<hammadde_list>();
+                string[] hammadde_dizi = File.ReadAllLines(@"C:\Users\mehmet.tokak\documents\visual studio 2013\Projects\sqlll\sqlll\Hammadde.txt");//bunu kulanýrsak usýng kulanmaya gerek yok.hepsýný dýz dýzýye atar
+                for (int i = 0; i < hammadde_dizi.Length; i++)
+                {
+                    hammadde_list eleman = new hammadde_list();
+                    eleman.h_adi = hammadde_dizi[i].Split('#')[0];
+                    eleman.brm_fiyat =Convert.ToDouble(hammadde_dizi[i].Split('#')[1]);
+                    hammadde_liste.Add(eleman);
+                }
+                  //  File.Delete(@"C:\Users\mehmet.tokak\documents\visual studio 2013\Projects\sqlll\sqlll\Hammadde.txt");
+                //txt ye eklemeyapýncaý onceký satýrlarý da alýp eklýyor oncekýlerýn sýlýmnmesý ýcýn.bu direkt dosya siler.
+            //veri tabanýna ekledýkten sonra dosya silme iþlemý yapsýn
+               // File.WriteAllText(@"C:\Users\mehmet.tokak\documents\visual studio 2013\Projects\sqlll\sqlll\Hammadde.txt",null);
+            //bu komut dosya icindekileri siler.dosyayý sýlmez 
+           
+            //-----------------------------------------------------------------------------------------------------------------------------------
+            SqlConnection baglanti;
+
+            SqlDataReader oku;
+            SqlCommand komut;
+            baglanti = new SqlConnection("Data Source=SQLSRVR;Initial Catalog=ilker_yazilim_202;Persist Security Info=True;User ID=smartpro;Password=A123s456rnvt!3");
+
+            baglanti.Open();
+
+            foreach (var item in hammadde_liste)
+            {   
+                komut = new SqlCommand("Insert Into mehmet_Hammadde(Hmdde_adi,Hmdde_birim_fiyat) Values (@Hmdde_adi,@Hmdde_birim_fiyat) ", baglanti);
+
+                 komut.Parameters.Add(new SqlParameter("Hmdde_adi",item.h_adi));
+                komut.Parameters.Add(new SqlParameter("Hmdde_birim_fiyat",item.brm_fiyat));
+                komut.ExecuteNonQuery();
+            }
+ oku = new SqlCommand("select *from mehmet_Hammadde", baglanti).ExecuteReader();
+         
+               
+               
+                while (oku.Read())
+                {
+                    Console.WriteLine(oku.GetInt32(0) + " " + oku.GetString(1) + " " + oku.GetDouble(2));
+                }
+                baglanti.Close();
+
+            
+// id ler sýfýlanmaz sýfýrlamak icin tabloyu silip yeniden olusturmamýz lazým.
+
+
+        }
+    }
+}

@@ -1,0 +1,18 @@
+// 2 ogrencý 3 derste aldýgý not ve ortalamasýný goster
+            string[] ögradi = new string[2];
+            int [] dersnotlari=new int[3];
+
+            for (int i = 0; i <2; i++)
+            {
+                Console.WriteLine(i+1+". ögrencinin adýný yazýnýz :");
+                ögradi[i] = Console.ReadLine();
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.WriteLine(ögradi[i]+" adlý ögrencýnýn "+(j+1)+". Ders notunu giriniz :");
+                    dersnotlari[j] = int.Parse(Console.ReadLine());
+
+                } Console.WriteLine("---------------------------------------------------------");
+                int ort = (dersnotlari[0] + dersnotlari[1] + dersnotlari[2]) / 3;
+                Console.WriteLine(ögradi[i]+" adlý ögrencinin 3 dersten aldýgý not ort ="+ort+" tur.");
+                Console.WriteLine("------------------------------------------------------------------");
+            }

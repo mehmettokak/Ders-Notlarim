@@ -1,0 +1,9 @@
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\nyp\nyp\bin\Debug\nyp.exe.config
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\nyp\nyp\bin\Debug\nyp.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\nyp\nyp\bin\Debug\nyp.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\nyp\nyp\obj\Debug\nyp.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\nyp\nyp\obj\Debug\nyp.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\nyp\nyp\obj\Debug\nyp.pdb
+C:\Users\Guest\Desktop\mehmetTOKAK\bre\Masaustu uygulamalar\nyp\nyp\bin\Debug\nyp.exe.config
+C:\Users\Guest\Desktop\mehmetTOKAK\bre\Masaustu uygulamalar\nyp\nyp\obj\Debug\nyp.exe
+C:\Users\Guest\Desktop\mehmetTOKAK\bre\Masaustu uygulamalar\nyp\nyp\obj\Debug\nyp.pdb

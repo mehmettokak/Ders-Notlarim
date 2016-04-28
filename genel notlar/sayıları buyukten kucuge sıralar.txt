@@ -1,0 +1,75 @@
+ {
+            Console.Write("Cümle giriniz: ");
+            string cumle = Console.ReadLine();
+
+            string geridonen = string.Join(" ", duzenle(cumle));
+            Console.WriteLine(geridonen);
+        }
+        static string[] duzenle(string cumle)
+        {
+            string tas;
+            string[] kelimeler = cumle.Split(' ');
+
+            if (kelimeler[0].Length<kelimeler[1].Length)
+            {
+                tas = kelimeler[0];
+                kelimeler[0] = kelimeler[1];
+                kelimeler[1] = tas;
+            }
+            if (kelimeler[0].Length < kelimeler[2].Length)
+            {
+                tas = kelimeler[0];
+                kelimeler[0] = kelimeler[2];
+                kelimeler[2] = tas;
+            }
+            if (kelimeler[0].Length < kelimeler[3].Length)
+            {
+                tas = kelimeler[0];
+                kelimeler[0] = kelimeler[3];
+                kelimeler[3] = tas;
+            }
+            if (kelimeler[0].Length < kelimeler[4].Length)
+            {
+                tas = kelimeler[0];
+                kelimeler[0] = kelimeler[4];
+                kelimeler[4] = tas;
+            }
+            if (kelimeler[1].Length < kelimeler[2].Length)
+            {
+                tas = kelimeler[1];
+                kelimeler[1] = kelimeler[2];
+                kelimeler[2] = tas;
+            }
+            if (kelimeler[1].Length < kelimeler[3].Length)
+            {
+                tas = kelimeler[1];
+                kelimeler[1] = kelimeler[3];
+                kelimeler[3] = tas;
+            }
+            if (kelimeler[1].Length < kelimeler[4].Length)
+            {
+                tas = kelimeler[1];
+                kelimeler[1] = kelimeler[4];
+                kelimeler[4] = tas;
+            }
+            if (kelimeler[2].Length < kelimeler[3].Length)
+            {
+                tas = kelimeler[2];
+                kelimeler[2] = kelimeler[3];
+                kelimeler[3] = tas;
+            }
+            if (kelimeler[2].Length < kelimeler[4].Length)
+            {
+                tas = kelimeler[2];
+                kelimeler[2] = kelimeler[4];
+                kelimeler[4] = tas;
+            }
+            if (kelimeler[3].Length < kelimeler[4].Length)
+            {
+                tas = kelimeler[3];
+                kelimeler[3] = kelimeler[4];
+                kelimeler[4] = tas;
+            }
+
+            return kelimeler;
+        }

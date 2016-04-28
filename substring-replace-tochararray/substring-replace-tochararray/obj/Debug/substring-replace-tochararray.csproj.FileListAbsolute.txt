@@ -1,0 +1,6 @@
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\substring-replace-tochararray\substring-replace-tochararray\bin\Debug\substring-replace-tochararray.exe.config
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\substring-replace-tochararray\substring-replace-tochararray\bin\Debug\substring-replace-tochararray.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\substring-replace-tochararray\substring-replace-tochararray\bin\Debug\substring-replace-tochararray.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\substring-replace-tochararray\substring-replace-tochararray\obj\Debug\substring-replace-tochararray.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\substring-replace-tochararray\substring-replace-tochararray\obj\Debug\substring-replace-tochararray.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\substring-replace-tochararray\substring-replace-tochararray\obj\Debug\substring-replace-tochararray.pdb

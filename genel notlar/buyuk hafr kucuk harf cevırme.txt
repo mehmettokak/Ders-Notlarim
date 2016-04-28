@@ -1,0 +1,2 @@
+toupper Buyuk Harfe cevýrýr.
+Tolower Kucuk harfe cevýrýr.

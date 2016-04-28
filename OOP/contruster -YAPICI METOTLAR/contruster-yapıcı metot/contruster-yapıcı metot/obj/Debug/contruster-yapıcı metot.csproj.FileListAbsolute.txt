@@ -1,0 +1,6 @@
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\contruster-yapıcı metot\contruster-yapıcı metot\bin\Debug\contruster-yapıcı metot.exe.config
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\contruster-yapıcı metot\contruster-yapıcı metot\bin\Debug\contruster-yapıcı metot.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\contruster-yapıcı metot\contruster-yapıcı metot\bin\Debug\contruster-yapıcı metot.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\contruster-yapıcı metot\contruster-yapıcı metot\obj\Debug\contruster-yapıcı metot.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\contruster-yapıcı metot\contruster-yapıcı metot\obj\Debug\contruster-yapıcı metot.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\contruster-yapıcı metot\contruster-yapıcı metot\obj\Debug\contruster-yapıcı metot.pdb

@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.Data;//CommandType.StoredProcedure icin bunu ekleriz
+using System.Data.SqlClient;
+using System.IO;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication56
+{//store prosedur
+    class Program
+    {
+        public class hammadde_list
+        {
+            public string h_ad { get; set; }
+            public double b_fiyat { get; set; }
+        }
+
+        static void Main(string[] args)
+        {
+            SqlConnection baglanti;
+            SqlDataReader oku;
+            SqlCommand komut;
+
+            baglanti = new SqlConnection("Data Source=sqlsrvr;Initial Catalog=ilker_yazilim_202;Persist Security Info=True;User ID=Smartpro;Password=A123s456rnvt!3");
+            baglanti.Open();
+
+            string giris_komut = "";
+
+            while (giris_komut != "exit")
+            {
+                Console.WriteLine("Hammadde Adý: ");
+                string hammadde_adi = Console.ReadLine();
+                giris_komut = hammadde_adi;
+                if (hammadde_adi.StartsWith("sil-"))//sil boslu yazýlýrsa....sil(-)domates gibi yazýlýr
+                {
+                    SqlCommand komut1 = new SqlCommand();
+                    komut1.CommandText = "sp_delete_mehmet";
+                    komut1.CommandType = CommandType.StoredProcedure;
+                    komut1.Parameters.Add(new SqlParameter("ad",hammadde_adi.Split('-')[1]));
+                    komut1.Connection = baglanti;
+                    komut1.ExecuteNonQuery();
+                }
+                if (giris_komut != "exit" && !hammadde_adi.StartsWith("sil-"))
+                {
+                    Console.WriteLine("Birim Fiyat: ");
+                    string hammadde_birim_fiyat = Console.ReadLine();
+
+                    komut = new SqlCommand();
+                    komut.CommandText = "sp_hammadde_insert_uptade_mehmet";//commenttesx komuttur..stored de baglanýr
+                    komut.CommandType = CommandType.StoredProcedure;
+                                                          //"ad" stored prc dedký degýsken adýdýr.
+                    komut.Parameters.Add(new SqlParameter("ad",hammadde_adi));
+                    komut.Parameters.Add(new SqlParameter("birim_fiyat",Convert.ToDouble(hammadde_birim_fiyat)));
+                    komut.Connection = baglanti;
+                    komut.ExecuteNonQuery();
+                    
+
+                    Console.WriteLine("\nHammadde eklendi...\n");
+                }
+            }
+
+            oku = new SqlCommand("Select * from ilker_hammadde", baglanti).ExecuteReader();
+
+            while (oku.Read())
+            {
+                Console.WriteLine(oku.GetInt32(0) + " - " + oku.GetString(1) + " - " + oku.GetDouble(2));
+            }
+
+        }
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\Guest\Desktop\bre\Masaustu uygulamalar\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\Mehmet TOKAK\Projeler\Dısardan girilen ısımleri kayıt al,istenildiginde listele ve alfabetik sıraya koy\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\Guest\Desktop\Mehmet TOKAK\Projeler\Dısardan girilen ısımleri kayıt al,istenildiginde listele ve alfabetik sıraya koy\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\Guest\Desktop\Mehmet TOKAK\Projeler\Dısardan girilen ısımleri kayıt al,istenildiginde listele ve alfabetik sıraya koy\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
+C:\Users\Guest\Desktop\Mehmet TOKAK\Projeler\Dısardan girilen ısımleri kayıt al,istenildiginde listele ve alfabetik sıraya koy\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\Guest\Desktop\Mehmet TOKAK\Projeler\Dısardan girilen ısımleri kayıt al,istenildiginde listele ve alfabetik sıraya koy\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\Guest\Desktop\Mehmet TOKAK\Projeler\Dısardan girilen ısımleri kayıt al,istenildiginde listele ve alfabetik sıraya koy\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csprojResolveAssemblyReference.cache
