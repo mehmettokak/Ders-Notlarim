@@ -1,6 +1,0 @@
-C:\Users\Guest\Desktop\WCF(4.5)\OkulServisLibraryWCF\OkulServisLibraryWCF\bin\Debug\OkulServisLibraryWCF.dll.config
-C:\Users\Guest\Desktop\WCF(4.5)\OkulServisLibraryWCF\OkulServisLibraryWCF\bin\Debug\OkulServisLibraryWCF.dll
-C:\Users\Guest\Desktop\WCF(4.5)\OkulServisLibraryWCF\OkulServisLibraryWCF\bin\Debug\OkulServisLibraryWCF.pdb
-C:\Users\Guest\Desktop\WCF(4.5)\OkulServisLibraryWCF\OkulServisLibraryWCF\obj\Debug\OkulServisLibraryWCF.csprojResolveAssemblyReference.cache
-C:\Users\Guest\Desktop\WCF(4.5)\OkulServisLibraryWCF\OkulServisLibraryWCF\obj\Debug\OkulServisLibraryWCF.dll
-C:\Users\Guest\Desktop\WCF(4.5)\OkulServisLibraryWCF\OkulServisLibraryWCF\obj\Debug\OkulServisLibraryWCF.pdb
