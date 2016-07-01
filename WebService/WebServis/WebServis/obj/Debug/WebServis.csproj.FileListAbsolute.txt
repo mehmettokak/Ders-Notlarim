@@ -1,0 +1,6 @@
+C:\Users\Guest\Desktop\HaberWeb\WebServis\WebServis\bin\WebServis.dll.config
+C:\Users\Guest\Desktop\HaberWeb\WebServis\WebServis\bin\WebServis.dll
+C:\Users\Guest\Desktop\HaberWeb\WebServis\WebServis\bin\WebServis.pdb
+C:\Users\Guest\Desktop\HaberWeb\WebServis\WebServis\obj\Debug\WebServis.csprojResolveAssemblyReference.cache
+C:\Users\Guest\Desktop\HaberWeb\WebServis\WebServis\obj\Debug\WebServis.dll
+C:\Users\Guest\Desktop\HaberWeb\WebServis\WebServis\obj\Debug\WebServis.pdb
